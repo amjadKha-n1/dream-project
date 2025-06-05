@@ -1,0 +1,67 @@
+
+#introduction h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+#introduction {
+    line-height: 0.2;
+}
+#introduction h3 {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+#introduction p {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+
+main {
+    position: relative;
+    z-index: 2;
+    margin: 0 15px;
+}
+
+#dresses ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.dress img {
+    /* height: auto;
+    width: 100%; */
+    width: 600px;
+    height: 580px;
+    /* object-fit: contain tells the element to scale its content to fit the aspect ratio of the containing element while completely fitting within the containing element. */
+    object-fit: contain;
+    image-rendering: auto;
+}
+
+#dresses li {
+    background-color: rgba(229, 220, 220, 0.427);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-shadow: 10px 10px 10px rgb(70, 112, 218);
+}
+#dresses h2 {
+    font-size: 3rem;
+    color: rgb(252, 252, 222);
+}
+#dresses a {
+    font-size: 2.5rem;
+    background-color:rgb(252, 252, 222);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#dresses a:hover {
+    background-color:rgb(192, 192, 148);
+}

@@ -1,0 +1,51 @@
+
+main {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+}
+
+
+#main-content {
+    position: relative;
+    z-index: 2;
+    width: 900px;
+    height: 700px;
+    background-color: rgba(229, 220, 220, 0.427);
+    border-radius: 10px;
+    padding: auto;
+    margin: 0 auto;
+    top: 2rem;
+    box-shadow: 10px 10px 10px rgb(67, 97, 230);
+
+}
+main {
+    line-height: 10px;
+}
+#main-content h1 {
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-left: 10px;
+    color: white;
+
+}
+.text-block {
+    padding-left: 10px;
+    padding-bottom: 30px;
+    white-space: pre-line;
+    line-height: 1.4;
+    font-size: 1.7rem;
+    /* color: rgb(255, 255, 255); */
+    /* color: white; */
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#first {
+    font-weight: bold;
+    font-size: 2rem;
+}
+#second {
+    display: block;
+    text-align: right;
+    font-size: 30px;
+}
