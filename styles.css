@@ -47,3 +47,47 @@ main {
 #main-links a:hover {
     background-color: rgb(181, 148, 148);
 }
+
+@media (max-width: 58rem) {
+    #background-image {
+        height: auto;
+    }
+    #background-image::before {
+        background-size: contain;
+        background-position: center;
+    }
+    header {
+        width: auto;
+    }
+
+    #navigation-bar a{
+        font-size: 1.4rem;
+    }
+
+    main {
+        height: 400px;
+    }
+    #intro-content {
+        width: 350px;
+        height: 250px;
+        align-items: center;
+    }
+    #intro-content h1{
+        font-size: 30px;
+    }
+    #intro-content p {
+        font-size: 20px;
+    }
+    #main-links a {
+        font-size: 20px;
+    }
+
+    footer {
+        height: 6rem;
+        top: 5rem;
+    }
+    footer img {
+        width: 80px;
+        height: 80px;
+    }
+}
