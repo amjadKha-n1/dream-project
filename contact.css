@@ -65,3 +65,25 @@ form button {
 form button:hover {
     background-color: rgb(184, 172, 172);
 }
+
+@media (max-width: 58rem) {
+    header h2 {
+        font-size: 2rem;
+    }
+    #main-content {
+        width: 350px;
+        height: 610px;
+    }
+    form label {
+        font-size: 1.5rem;
+    }
+    form input {
+        font-size: 1rem;
+    }
+    input::placeholder {
+        font-size: 1.2rem;
+    }
+    form button {
+        font-size: 1.5rem;
+    }
+}

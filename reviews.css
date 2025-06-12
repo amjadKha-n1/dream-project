@@ -35,3 +35,26 @@ li:nth-of-type(1)
     grid-column: 1 / span 2;
 }
 
+@media (max-width: 58rem) {
+    header h2 {
+        font-size: 2.5rem;
+    }
+    header h3 {
+        font-size: 2rem;
+    }
+    header h1, h2, h3 {
+        line-height: 1;
+    }
+    #main-content ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: none;
+    }
+    #main-content li {
+        font-size: 1.5rem;
+    }
+    #main-content li:nth-of-type(1) {
+        grid-column: auto;
+    }
+}
+

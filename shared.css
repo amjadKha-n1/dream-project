@@ -77,4 +77,32 @@ footer img:hover {
     background-color: rgb(240, 224, 224);
     border-radius: 10px;
     box-shadow: 8px 8px 8px blue;
-}   
+}
+
+@media (max-width: 58rem) {
+    #background-image {
+        height: auto;
+    }
+    #background-image::before {
+        /* Forces the PNG to be scaled down so all of it fits inside the
+        pseudo-element on small screens (no cropping). */
+        background-size: contain;
+        background-position: center;
+    }
+    header {
+        width: auto;
+    }
+
+    #navigation-bar a{
+        font-size: 1.4rem;
+    }
+
+    footer {
+        height: 6rem;
+        top: 5rem;
+    }
+    footer img {
+        width: 70px;
+        height: 70px;
+    }
+}

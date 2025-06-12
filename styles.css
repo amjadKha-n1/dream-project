@@ -49,21 +49,6 @@ main {
 }
 
 @media (max-width: 58rem) {
-    #background-image {
-        height: auto;
-    }
-    #background-image::before {
-        background-size: contain;
-        background-position: center;
-    }
-    header {
-        width: auto;
-    }
-
-    #navigation-bar a{
-        font-size: 1.4rem;
-    }
-
     main {
         height: 400px;
     }
@@ -82,12 +67,4 @@ main {
         font-size: 20px;
     }
 
-    footer {
-        height: 6rem;
-        top: 5rem;
-    }
-    footer img {
-        width: 80px;
-        height: 80px;
-    }
 }

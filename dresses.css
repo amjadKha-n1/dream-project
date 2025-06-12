@@ -65,3 +65,32 @@ main {
 #dresses a:hover {
     background-color:rgb(192, 192, 148);
 }
+
+@media (max-width: 78rem) {
+    #introduction h3 {
+        font-size: 1.7rem;
+    }
+    #introduction p {
+        font-size: 1.4rem;
+        padding: 0 5px;
+    }
+    #introduction {
+        line-height: 1;
+    }
+    #dresses ul {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .dress img {
+        width: 350px;
+        height: 330px;
+        object-fit: contain;
+        image-rendering: auto;
+    }
+    #dresses h2 {
+        font-size: 2rem;
+    }
+    #dresses a {
+        font-size: 2rem;
+    }
+}
