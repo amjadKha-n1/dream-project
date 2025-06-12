@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(10deg, rgb(152, 231, 123), rgb(137, 201, 222));
+    background: linear-gradient(10deg, rgb(192, 237, 176), rgb(64, 123, 143));
     background-attachment: fixed; /* Keeps it fixed while scrolling */
 
 }

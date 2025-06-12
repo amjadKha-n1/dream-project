@@ -86,6 +86,7 @@ main {
         height: 330px;
         object-fit: contain;
         image-rendering: auto;
+	padding-right: 5px;
     }
     #dresses h2 {
         font-size: 2rem;
